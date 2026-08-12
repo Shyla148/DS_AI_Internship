@@ -1,0 +1,4 @@
+import pandas as pd 
+marks=pd.Series([85,90,78],index=['Maths','Physics','chemistry'])
+print(marks['Maths'])
+print(marks['Physics','chemistry'])
