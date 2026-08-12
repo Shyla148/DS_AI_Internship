@@ -1,0 +1,17 @@
+StudentID,Name,Class,Maths,Science,English
+101,Amit,10A,85,80,78
+102,Sara,10A,78,,85
+103,John,10B,,76,80
+104,Priya,10A,92,90,
+105,,10B,88,85,87
+106,David,10A,75,70,72
+107,Meena,10B,80,82,79
+108,Ali,10A,,79,81
+109,Riya,10B,90,,88
+110,Kiran,10A,82,81,
+111,Anu,10B,77,75,76
+112,Rahul,10A,89,88,84
+113,Sneha,10B,84,83,82
+114,Arjun,10A,,77,75
+115,Pooja,10B,91,89,90
+115,Pooja,10B,91,89,90
