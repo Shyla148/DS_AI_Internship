@@ -6,6 +6,7 @@ print("shape:",df.shape)
 print("datatype:",df.dtypes)
 print("missing values count:",df.isnull().sum())
 print("duplicate row count:",df.duplicated().sum())
+print("describe:",df.describe())
 #remove duplicate rows
 df = df.drop_duplicates().reset_index(drop=True)
 
