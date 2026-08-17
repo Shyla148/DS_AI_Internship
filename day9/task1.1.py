@@ -61,14 +61,14 @@ for col in cat_cols:
 # Skewness Analysis
 # ------------------------------------------
 print("\n===== SKEWNESS =====")
-
 for col in numeric_cols:
     skew = df[col].skew()
 
     print(f"{col}: {round(skew,2)}")
-
+# positive skewness
     if skew > 0:
         print("Positively Skewed")
+        # negative skewness
     elif skew < 0:
         print("Negatively Skewed")
     else:

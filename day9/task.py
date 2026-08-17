@@ -71,9 +71,10 @@ print("\n========== SKEWNESS ==========")
 for col in numeric_cols:
     skew_value = df[col].skew()
     print(f"{col}: {skew_value:.2f}")
-
+# positive skeweness
     if skew_value > 0:
         print(" Positively Skewed")
+        #negative skeweness
     elif skew_value < 0:
         print(" Negatively Skewed")
     else:
